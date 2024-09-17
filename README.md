@@ -70,3 +70,8 @@ The dataset is complemented by an interactive data dashboard, allowing dynamic e
 
 
 
+
+
+# data source code 
+
+The source code utilized for this database is derived from the Northwind and Pubs sample databases, which are publicly available in Microsoft's SQL Server Samples repository. The source code can be accessed at the following link: Northwind and Pubs Sample Code.
