@@ -1,0 +1,4 @@
+#the data source code 
+The source code for this database is based on the publicly available Northwind and Pubs sample from Microsoft's SQL Server Samples repository, which can be found  
+here  https://github.com/microsoft/sql-server-samples/blob/master/samples/databases/northwind-pubs/instpubs.sql
+
