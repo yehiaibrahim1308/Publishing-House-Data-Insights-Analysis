@@ -1,25 +1,30 @@
 # Publishing-House-Data-Insights-Analysis
-a database management system that contains data related to a fictional publishing company, such as Title, authors, publishers, and sales. The database is designed to store and manage information about the books published by the company, the authors who write them, the publishers who distribute them, and the sales made to customers.
+This project presents a comprehensive Database Management System (DBMS) for a fictional publishing company. The database manages crucial information such as book titles, authors, publishers, and sales performance. It is specifically designed to store and organize data related to the company’s published books, authorship, distribution through various publishers, and sales transactions with customers.
 
-# dataset consist of these tables: 
-1-Authors Table: This table contains information about the authors of books. 
-2-Titles: The titles table contains information about each book title.
-3-Publishers: The publishers table contains information about each publisher.
-4-Publisher_info: contains extra information about the publisher
-5-Title Authors: The title author table is a junction table that maps the relationship between books and authors
-6-Sales: The sales table contains information about each book sale.
-7-Stores: The stores table contains information about each store
-8-Discounts: discounts a customer can have on his purchase
-9-Employee: people who are employed by the business
-10-Jobs: What type and level of work does each employee do?
-11-Roysched : contains information about the royalty payments made to the authors
+# Key Dataset Components
 
+The dataset is structured across multiple tables that represent various aspects of the publishing business:
 
-# The data model before transformation:
+1. Authors Table: Contains information about the authors of books.
+2. Titles Table: Stores data for each book title published.
+3. Publishers Table: Holds information about all publishing companies involved in the distribution of the books.
+4. Publisher_Info Table: Provides additional details on each publisher.
+5. Title Authors Table: Acts as a junction table that links books to their respective authors.
+6. Sales Table: Records sales transactions for each book.
+7. Stores Table: Contains data for all stores selling the published books.
+8. Discounts Table: Specifies discounts applicable to customer purchases.
+9. Employee Table: Captures details about the employees of the publishing company.
+10. Jobs Table: Describes the job types and levels of work for each employee.
+11. Roysched Table: Tracks royalty payments made to authors.
+
+#Initial Data Model Overview
+Here’s the data model before the transformation process:
 
 ![image](https://github.com/user-attachments/assets/eb30c6e1-b241-4698-a895-a3246371a54a)
 
-# The process of transforming the dataset into a star schema consists of five key stages, each subdivided into smaller steps, as outlined below
+# Data Transformation Process
+
+The dataset transformation follows a structured process to convert the original data model into a Star Schema. The transformation consists of five major stages, with each stage containing specific steps:
 
 1.  creating the author dimension
 2.  creating the title dimension
@@ -30,29 +35,35 @@ a database management system that contains data related to a fictional publishin
 
 # Transformed Dataset Overview
 
+After transformation, the dataset is organized as follows:
+
 ![image](https://github.com/user-attachments/assets/02f9a538-b176-4875-8dc1-7758883c567e)
 
 
 
-# Measures and Hierarchies Defined in the Fact Table: 
+# Fact Table: Measures and Hierarchies
 
-Hierarchies:
-a hierarchy for author titles that includes both the title name and the authors' full names
-City, store name, store ID, and title ID make up the hierarchy for store details.
-Title, author name, publisher id, and the actual royalty make up the royalty hierarchy.
+Defined Hierarchies:
+  Author Hierarchy: Includes both the book title and the author's full name.
+  Store Hierarchy: Structured by city, store name, store ID, and title ID.
+  Royalty Hierarchy: Consists of the title, author name, publisher ID, and the actual     
+   royalty amount.
 
-Measures:
-Measure for the total number of stores
-Measure for total advance payments by publisher to author
-Measure for total number of distinct royalty
-Measure for total number of orders
-Measure for total number of years sales
-Measure for total number of authors
-Measure for total number of title-id
+Key Measures:
+
+  Total number of stores
+  Total advance payments by publishers to authors
+  Total number of distinct royalty payments
+  Total number of orders
+  Total number of sales by year
+  Total number of authors
+  Total number of book titles (Title-ID)
+
 
 
 # Interactive Data Dashboard    
 
+The dataset is complemented by an interactive data dashboard, allowing dynamic exploration of the data:
 
 ![image](https://github.com/user-attachments/assets/2f162e11-1afb-4e1f-926a-bce8d25fcc96)
 
