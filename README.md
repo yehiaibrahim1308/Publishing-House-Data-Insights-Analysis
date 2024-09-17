@@ -53,15 +53,8 @@ Measure for total number of title-id
 
 # Interactive Data Dashboard    
 
-![image](https://github.com/user-attachments/assets/593c94ca-4b53-42a4-8baf-3a2869baf7a1)
 
-![image](https://github.com/user-attachments/assets/d96cbf9d-0c55-4f51-a2e2-4ca052f22eba)
-
-![image](https://github.com/user-attachments/assets/208a05cd-3956-4489-b5c1-73765e709c3a)
-
-![image](https://github.com/user-attachments/assets/7d4e6258-221a-4ca1-9a47-55abbc9e1b91)
-
-![image](https://github.com/user-attachments/assets/d7f4216c-f42a-4ed7-ba08-3c3817ee66dd)
+![image](https://github.com/user-attachments/assets/2f162e11-1afb-4e1f-926a-bce8d25fcc96)
 
 
 
