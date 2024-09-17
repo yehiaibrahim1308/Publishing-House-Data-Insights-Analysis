@@ -30,7 +30,8 @@ a database management system that contains data related to a fictional publishin
 
 # Transformed Dataset Overview
 
-![image](https://github.com/user-attachments/assets/f94d0daf-1945-4d1e-9504-23ebcf3591c8)
+![image](https://github.com/user-attachments/assets/02f9a538-b176-4875-8dc1-7758883c567e)
+
 
 
 # Measures and Hierarchies Defined in the Fact Table: 
