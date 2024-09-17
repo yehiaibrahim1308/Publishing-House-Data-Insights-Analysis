@@ -74,5 +74,5 @@ The dataset is complemented by an interactive data dashboard, allowing dynamic e
 
 # data source code 
 
-The source code for this database is derived from the Northwind and Pubs sample databases. For detailed information and access to the source code, please refer to the [Microsoft SQL Server Samples repository](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs).
+The source code for this database is derived from the Northwind and Pubs sample databases. For detailed information and access to the source code, please refer to the [Publishing-House-Data-Insights-Analysis](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs).
 
