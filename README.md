@@ -1,6 +1,6 @@
 # Publishing-House-Data-Insights-Analysis
 This project presents a comprehensive Database Management System (DBMS) for a fictional publishing company. The database manages crucial information such as book titles, authors, publishers, and sales performance. It is specifically designed to store and organize data related to the company’s published books, authorship, distribution through various publishers, and sales transactions with customers.
-  
+   
 # Key Dataset Components
 
 The dataset is structured across multiple tables that represent various aspects of the publishing business:
